@@ -11,14 +11,18 @@
       <div class="main_container">
 
         <!-- HEADER SECTION -->
-        <!-- TODO: Format and make responsive -->
         <div class="main__content">
+          <!-- TODO: Format and make responsive -->
           <h1>INSERT HEADER</h1>
+
+          
         </div>
 
         <!-- ABOUT SECTION (HERO) -->
         <div class="main__content">
           <!-- <h1>ABOUT</h1> <br> -->
+          <!-- TODO: Add links under headshot -->
+          <!-- TODO: Make slideshow -->
 
           <div class="main__img--container">
             <img src="images/Norway Headshot Square.png" alt="Headshot">
@@ -39,14 +43,22 @@
               apps that make tasks more efficient, I'm enthusiastic about leveraging technology 
               in large-scale and creative ways.</p>
           </div>
-        </div> <!-- END OF ABOUT CONTAINER-->
+        </div> <!-- END OF ABOUT SECTION-->
+
+        <!-- SKILLS SECTION -->
+        <!-- TODO: Fix top and right spacing -->
+        <div class="main__content">
+          <h1>SKILLS</h1> <br>
+
+          <div id="skills-container" class="skill-elements"></div>
+          <script src="scripts/skills.js"></script>
+
+        </div> <!-- END OF SKILLS SECTION -->
 
         <!-- EXPERIENCES SECTION -->
+        <!-- TODO: Fix company logo positioning (center logo)-->
         <div class="main__content">
           <h1>EXPERIENCE</h1> <br>
-          
-          <!-- TODO: make new class for experiences, still under main_content-->
-          <!-- TODO: split up space using flexbox or grid -->
 
           <div class="experience__img--container">
             <a href="https://mach9.com/" target="_blank" rel="noopener noreferrer">
@@ -79,13 +91,29 @@
             </p>
           </div>
 
-        </div> <!-- END OF EXPERIENCES CONTAINER -->
+          <div class="experience__img--container">
+            <a href="https://www.monmouth.edu/department-of-csse/" 
+              target="_blank" rel="noopener noreferrer">
+              <img src="images/Monmouth Logo.png" alt="Monmouth">
+            </a>
+          </div>
+
+          <div>
+            <h1> Monmouth University </h1>
+            <h2> Software Research Assistant </h2>
+            <p>
+              Refined 2 reinforcement learning algorithms using PyTorch to teach a robotic nurse to navigate a hospital floor. 
+              Programmed a user interface using Python and Gym to display robot actions and environment.
+            </p>
+          </div>
+
+        </div> <!-- END OF EXPERIENCES SECTION -->
 
       <!-- PROJECTS SECTION -->
       <div class="main__content">
         <h1>PROJECTS</h1> <br>
 
-      </div> <!-- END OF PROJECTS CONTAINER -->
+      </div> <!-- END OF PROJECTS SECTION -->
 
       </div>  <!-- END OF MAIN CONTAINER -->
     </div> <!-- END OF MAIN -->
