@@ -9,6 +9,7 @@ const skillsList = [
   { name: "React" },
   { name: "C" },
   { name: "SQL" },
+  { name: "OCaml" },
   { name: "pandas" },
   { name: "NumPy" },
   { name: "Docker" },
@@ -16,7 +17,6 @@ const skillsList = [
   { name: "VS Code" },
   { name: "Jupyter" },
   { name: "MS Excel" },
-  { name: "Figma" },
 ];
 
 // FROM RESUME
