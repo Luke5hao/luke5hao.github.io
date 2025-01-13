@@ -9,15 +9,15 @@ body {
 @media screen and (min-width: 769px) {
   .main__container{
     display: grid;
-    grid-template-columns:
-      1fr
-      min(65rem, 95%)
-      1fr;
+    grid-template-columns: 1fr min(65rem, 95%) 1fr;
     height: 100%;
   }
   /* All content in middle column. */
   .main__container > * {
     grid-column: 2;
+  }
+  .main__container div {
+    margin-bottom: 5rem; 
   }
   /* Class for full-width elements. */
   .main_container--fullbleed {
@@ -37,9 +37,8 @@ body {
   }
   /* Default formatting for main sections. */
   .main__content div {
+    margin: 1rem 0rem 0rem 0rem; 
     /* border: 1px solid black; */
-    margin-top: 1rem;
-    margin-right: 2rem;
   }
   .main__content h1 {
     font-size: 26px;
@@ -129,9 +128,10 @@ body {
     align-items: center;
   }
   .main__img--container img {
-    max-width: 21.5rem;
+    width: 21.5rem;
     height: auto;
     border-radius: 10px;
+    margin-right: 2rem;
   }
 
   /* Flexbox for about-section links */
@@ -174,14 +174,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+    /* Offsets child right-end margin */
+    padding-left: 1.5rem; 
     justify-content: center;
   }
   /* Formatting for individual skills */
   .skill-elements div {
     min-width: 6rem;
     margin-top: 1rem;
-    margin-right: 1.5rem; 
+    margin-right: 1.5rem;
     font-size: 18px;
   }
   /* .skill-elements div:last-child {
