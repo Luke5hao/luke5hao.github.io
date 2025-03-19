@@ -68,6 +68,8 @@ body {
     align-items: stretch; /* Makes box heights the same */
     height: 10rem;
     position: sticky;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* backdrop-filter: blur(10px); */
   }
   /* Formatting for each navbar box */
   .navbar--container > * {
