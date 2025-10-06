@@ -1,3 +1,1 @@
-Personal Portfolio
-
-Work in Progress
+Personal Portfolio - Work in Progress
